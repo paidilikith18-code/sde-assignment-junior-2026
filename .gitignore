@@ -9,3 +9,16 @@ data_large/
 reports/
 final_state.csv
 .pytest_cache/
+
+# Local dispatcher database
+dispatcher.db
+dispatcher.db-wal
+dispatcher.db-shm
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+backups/
